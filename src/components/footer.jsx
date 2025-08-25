@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import First from "../Assets/2stLG.png";
+import First from "../Assets/second.png";
 import second from "../Assets/a.png";
 const Footer = () => {
   return (

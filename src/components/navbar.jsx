@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import  { useState, useEffect, useRef } from "react";
 import {
   FaHome,
   FaChevronDown,
@@ -8,7 +8,7 @@ import {
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
-import First from "../Assets/2stLG.png";
+import First from "../Assets/second.png";
 import second from "../Assets/a.png";
 
 import { ChevronDown, ChevronUp } from "lucide-react";
