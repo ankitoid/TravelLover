@@ -8,7 +8,7 @@ import {
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
-import First from "../Assets/second.png";
+import First from "../Assets/secondimg.png";
 import second from "../Assets/a.png";
 
 import { ChevronDown, ChevronUp } from "lucide-react";
