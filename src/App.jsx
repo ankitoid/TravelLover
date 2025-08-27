@@ -17,7 +17,7 @@ function App() {
         <Route path="/" element={<Tempate />} />
         <Route path="/LearnHook" element={<LearnHook />} />
         <Route path="/propss" element={<Props />} />
-        <Route path="/locations-lage" element={<LocationsPage />} />
+        <Route path="/locations-page" element={<LocationsPage />} />
       </Routes>
   
     </Router>

@@ -8,8 +8,8 @@ import {
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
-import First from "../Assets/secondimg.png";
-import second from "../Assets/a.png";
+import First from "../Assets/last.png";
+import Second from "../Assets/a.png";
 
 import { ChevronDown, ChevronUp } from "lucide-react";
 const Navbar = () => {
@@ -105,17 +105,10 @@ const Navbar = () => {
             className="h-8 2xl:h-8 md:h-8 transition-all duration-500 transform group-hover:-translate-x-7 "
           />
           <img
-            src={second}
+            src={Second}
             alt="Logo"
             className="absolute opacity-0 group-hover:opacity-100 transform translate-x-10 group-hover:translate-x-20 transition-all duration-700  "
           />
-
-          {/* <img
-           src="https://main-website-images1.s3.ap-south-1.amazonaws.com/Lending-Page-Image/logo/full_logo.png"
-           //  src={b} // group-hover:-translate-x-10 css below
-            alt="Logo"
-            className="h-10 2xl:h-[50px] md:h-[50px] transition-all duration-300 transform  "
-          /> */}
         </Link>
 
         {/* Navigation Links */}
