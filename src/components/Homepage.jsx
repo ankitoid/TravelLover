@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
 import heroBg from "../assets/gx-aviation.png";
-import Navbar from "./navbar";
+// import Navbar from "./navbar";
 import Slider from "./Slider";
 // import Footer from "./footer";
 const Homepage = () => {
   return (
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
       {/* Hero Section */}
       <section
         className="relative bg-fixed  bg-center bg-white text-white rounded-bl-[100px] rounded-br-[100px]"
