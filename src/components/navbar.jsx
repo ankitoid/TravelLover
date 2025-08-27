@@ -124,7 +124,7 @@ const Navbar = () => {
           <li className="relative" onMouseEnter={() => handleMouseEnter(0)}>
             <Link
               to="/" // md:hidden lg:flex add it to md hidden
-              className="flex  md:hidden lg:flex items-center px-4 py-1  hover:text-green-400 hover:font-bold  "
+              className="flex  md:hidden lg:flex items-center px-4 py-1  hover:text-green-400   "
               onClick={() => handleToggle(0)}
             >
               <FaHome className="mr-2" />
@@ -136,7 +136,7 @@ const Navbar = () => {
           <li className="relative" onMouseEnter={() => handleMouseEnter(1)}>
             <Link
               to="#"
-              className="flex items-center px-5 py-1 hover:text-green-400 hover:font-bold  "
+              className="flex items-center px-5 py-1 hover:text-green-400   "
               onClick={() => handleToggle(1)}
             >
               Solutions
@@ -164,7 +164,7 @@ const Navbar = () => {
                   >
                     <Link
                       to="/solutions/cloud"
-                      className="p-2 rounded whitespace-nowrap hover:font-bold hover:text-white hover:bg-greenCustomColor2 hover:px-4 flex items-center justify-between"
+                      className="p-2 rounded whitespace-nowrap hover:font-bold  hover:text-white hover:bg-[#008567] hover:px-4 flex items-center justify-between"
                     >
                       <span>Cloud</span>
                       {showSubmenu ? (
@@ -189,7 +189,7 @@ const Navbar = () => {
                         <Link
                           to="/solutions/cloud/aws"
                           onClick={() => setShowSubmenu(false)}
-                          className="block hover:bg-greenCustomColor2 hover:font-bold hover:text-white p-2 rounded text-center"
+                          className="block hover:bg-[#008567]  hover:text-white p-2 rounded text-center"
                         >
                           AWS
                         </Link>
@@ -199,7 +199,7 @@ const Navbar = () => {
                         <Link
                           to="/solutions/cloud/multi-cloud"
                           onClick={() => setShowSubmenu(false)}
-                          className="block hover:bg-greenCustomColor2 hover:font-bold hover:text-white p-2 rounded text-center"
+                          className="block hover:bg-[#008567]  hover:text-white p-2 rounded text-center"
                         >
                           Multi Cloud
                         </Link>
@@ -209,7 +209,7 @@ const Navbar = () => {
                         <Link
                           to="/solutions/cloud/aws-hybrid-cloud"
                           onClick={() => setShowSubmenu(false)}
-                          className="block hover:bg-greenCustomColor2 hover:font-bold hover:text-white p-2 rounded text-center"
+                          className="block hover:bg-[#008567]  hover:text-white p-2 rounded text-center"
                         >
                           Hybrid Cloud
                         </Link>
@@ -219,7 +219,7 @@ const Navbar = () => {
                           to="/solutions/cloud/cloud-solution"
                           onClick={() => setShowSubmenu2(false)}
                         >
-                          <li className="hover:bg-greenCustomColor2 hover:font-bold hover:text-white p-2 rounded text-center">
+                          <li className="hover:bg-[#008567]  hover:text-white p-2 rounded text-center">
                             Cloud Migration
                           </li>
                         </Link>
@@ -234,7 +234,7 @@ const Navbar = () => {
                   >
                     <Link
                       to="/solutions/aws-solutions"
-                      className="p-2 rounded whitespace-nowrap hover:font-bold hover:text-white hover:bg-greenCustomColor2 hover:px-4 flex items-center justify-between"
+                      className="p-2 rounded whitespace-nowrap  hover:text-white hover:bg-[#008567] hover:px-4 flex items-center justify-between"
                     >
                       <span>AWS Solutions</span>
                       {showSubmenu2 ? (
@@ -259,7 +259,7 @@ const Navbar = () => {
                         to="/solutions/cloud-solutions/titanX-data-transformation"
                         onClick={() => setShowSubmenu2(false)}
                       >
-                        <li className="hover:bg-greenCustomColor2 hover:font-bold hover:text-white p-2 rounded text-center">
+                        <li className="hover:bg-[#008567]  hover:text-white p-2 rounded text-center">
                           Titan X
                         </li>
                       </Link>
@@ -268,7 +268,7 @@ const Navbar = () => {
                         to="/solution/aws-solutions/omnibot-genai"
                         onClick={() => setShowSubmenu2(false)}
                       >
-                        <li className="hover:bg-greenCustomColor2 hover:font-bold hover:text-white p-2 rounded text-center">
+                        <li className="hover:bg-[#008567]  hover:text-white p-2 rounded text-center">
                           OmniBot
                         </li>
                       </Link>
@@ -277,7 +277,7 @@ const Navbar = () => {
                         to="/solution/aws-solutions/opsis-live-streaming"
                         onClick={() => setShowSubmenu2(false)}
                       >
-                        <li className="hover:bg-greenCustomColor2 hover:font-bold hover:text-white p-2 rounded text-center">
+                        <li className="hover:bg-[#008567]  hover:text-white p-2 rounded text-center">
                           Opsis Streaming
                         </li>
                       </Link>
@@ -286,7 +286,7 @@ const Navbar = () => {
                         to="/solutions/aws-solutions/customer-collaboration"
                         onClick={() => setShowSubmenu2(false)}
                       >
-                        <li className="hover:bg-greenCustomColor2 hover:font-bold hover:text-white p-2 rounded text-center">
+                        <li className="hover:bg-[#008567]  hover:text-white p-2 rounded text-center">
                           GX Customer Connect
                         </li>
                       </Link>
@@ -295,7 +295,7 @@ const Navbar = () => {
                         to="/solutions/aws-solutions/piosa-high-performance-storage"
                         onClick={() => setShowSubmenu2(false)}
                       >
-                        <li className="hover:bg-greenCustomColor2 hover:font-bold hover:text-white p-2 rounded text-center">
+                        <li className="hover:bg-[#008567]  hover:text-white p-2 rounded text-center">
                           Prolific I/O Storage Accelerator
                         </li>
                       </Link>
@@ -303,7 +303,7 @@ const Navbar = () => {
                         to="/solutions/aws-solutions/aws-migration-service"
                         onClick={() => setShowSubmenu2(false)}
                       >
-                        <li className="whitespace-nowrap overflow-hidden text-ellipsis hover:bg-greenCustomColor2 hover:text-white p-2 rounded text-center">
+                        <li className="whitespace-nowrap overflow-hidden text-ellipsis hover:bg-[#008567] hover:text-white p-2 rounded text-center">
                           Migration, Optimization, and Modernization
                         </li>
                       </Link>
@@ -313,7 +313,7 @@ const Navbar = () => {
                   <li>
                     <Link
                       to="/solutions/collaboration-technologies"
-                      className="block p-2 rounded hover:bg-greenCustomColor2 hover:font-bold hover:text-white whitespace-nowrap hover:px-2"
+                      className="block p-2 rounded hover:bg-[#008567]  hover:text-white whitespace-nowrap hover:px-2"
                     >
                       Collaboration Technologies
                     </Link>
@@ -322,7 +322,7 @@ const Navbar = () => {
                   <li>
                     <Link
                       to="/solutions/data-center-design"
-                      className="block hover:bg-greenCustomColor2 hover:font-bold hover:text-white p-2 rounded whitespace-nowrap hover:px-2"
+                      className="block hover:bg-[#008567]  hover:text-white p-2 rounded whitespace-nowrap hover:px-2"
                     >
                       Data Center Design/Build
                     </Link>
@@ -331,7 +331,7 @@ const Navbar = () => {
                   <li>
                     <Link
                       to="/solutions/cyber-security"
-                      className="block hover:bg-greenCustomColor2 hover:font-bold hover:text-white p-2 rounded whitespace-nowrap hover:px-2"
+                      className="block hover:bg-[#008567]  hover:text-white p-2 rounded whitespace-nowrap hover:px-2"
                     >
                       Cyber Security
                     </Link>
@@ -340,7 +340,7 @@ const Navbar = () => {
                   <li>
                     <Link
                       to="/solutions/small-medium-business"
-                      className="block hover:bg-greenCustomColor2 hover:font-bold hover:text-white p-2 rounded whitespace-nowrap hover:px-2"
+                      className="block hover:bg-[#008567]  hover:text-white p-2 rounded whitespace-nowrap hover:px-2"
                     >
                       Small and Medium Business
                     </Link>
@@ -353,7 +353,7 @@ const Navbar = () => {
                   >
                     <Link
                       to="/solutions/ai-ml-solutions"
-                      className="p-2 rounded whitespace-nowrap  hover:text-white hover:bg-greenCustomColor2 hover:px-2 flex items-center justify-between"
+                      className="p-2 rounded whitespace-nowrap  hover:text-white hover:bg-[#008567] hover:px-2 flex items-center justify-between"
                     >
                       <span>AI & Machine Learning Solutions</span>
                       {showMLSubmenu ? (
@@ -378,7 +378,7 @@ const Navbar = () => {
                         <Link
                           to="/solutions/smart-transit"
                           onClick={() => setShowMLSubmenu(false)}
-                          className="block hover:bg-greenCustomColor2 hover:font-bold hover:text-white p-2 rounded text-center"
+                          className="block hover:bg-[#008567]  hover:text-white p-2 rounded text-center"
                         >
                           Smart Transit
                         </Link>
@@ -387,7 +387,7 @@ const Navbar = () => {
                         <Link
                           to="/solutions/iot-in-healthcare"
                           onClick={() => setShowMLSubmenu(false)}
-                          className="block hover:bg-greenCustomColor2 hover:font-bold hover:text-white p-2 rounded text-center"
+                          className="block hover:bg-[#008567]  hover:text-white p-2 rounded text-center"
                         >
                           IOT in Healthcare
                         </Link>
@@ -396,7 +396,7 @@ const Navbar = () => {
                         <Link
                           to="/ai-machine-learning-on-aws"
                           onClick={() => setShowMLSubmenu(false)}
-                          className="block hover:bg-greenCustomColor2 hover:font-bold hover:text-white p-2 rounded text-center"
+                          className="block hover:bg-[#008567]  hover:text-white p-2 rounded text-center"
                         >
                           AI & Machine Learning on AWS
                         </Link>
@@ -411,7 +411,7 @@ const Navbar = () => {
           {/* Services link */}
           <li className="relative" onMouseEnter={() => handleMouseEnter(2)}>
             <Link
-              className="flex items-center px-4 py-1 hover:text-green-400 hover:font-bold"
+              className="flex items-center px-4 py-1 hover:text-green-400 "
               onClick={() => handleToggle(2)}
             >
               Services
@@ -435,7 +435,7 @@ const Navbar = () => {
                   <li>
                     <Link
                       to="/service/field-services"
-                      className="block hover:bg-greenCustomColor2  hover:font-bold hover:text-white p-2 rounded whitespace-nowrap"
+                      className="block hover:bg-[#008567]   hover:text-white p-2 rounded whitespace-nowrap"
                     >
                       Field Services
                     </Link>
@@ -443,7 +443,7 @@ const Navbar = () => {
                   <li>
                     <Link
                       to="/service/managed-services"
-                      className="block hover:bg-greenCustomColor2  hover:font-bold hover:text-white p-2 rounded whitespace-nowrap"
+                      className="block hover:bg-[#008567]   hover:text-white p-2 rounded whitespace-nowrap"
                     >
                       Managed Services
                     </Link>
@@ -451,7 +451,7 @@ const Navbar = () => {
                   <li>
                     <Link
                       to="/service/professional-services"
-                      className="block hover:bg-greenCustomColor2  hover:font-bold hover:text-white p-2 rounded whitespace-nowrap"
+                      className="block hover:bg-[#008567]   hover:text-white p-2 rounded whitespace-nowrap"
                     >
                       Professional Services
                     </Link>
@@ -464,7 +464,7 @@ const Navbar = () => {
           {/* Industries link */}
           <li className="relative" onMouseEnter={() => handleMouseEnter(3)}>
             <Link
-              className="flex items-center px-4 py-1 hover:text-green-400 hover:font-bold"
+              className="flex items-center px-4 py-1 hover:text-green-400 "
               onClick={() => handleToggle(3)}
             >
               Industries
@@ -488,7 +488,7 @@ const Navbar = () => {
                   <li>
                     <Link
                       to="/industries/aviation"
-                      className="block hover:bg-greenCustomColor2  hover:font-bold hover:text-white p-2 rounded whitespace-nowrap"
+                      className="block hover:bg-[#008567]   hover:text-white p-2 rounded whitespace-nowrap"
                     >
                       Aviation
                     </Link>
@@ -496,7 +496,7 @@ const Navbar = () => {
                   <li>
                     <Link
                       to="/industries/education"
-                      className="block hover:bg-greenCustomColor2  hover:font-bold hover:text-white p-2 rounded whitespace-nowrap"
+                      className="block hover:bg-[#008567]   hover:text-white p-2 rounded whitespace-nowrap"
                     >
                       Education
                     </Link>
@@ -505,7 +505,7 @@ const Navbar = () => {
                   <li>
                     <Link
                       to="/industries/energy"
-                      className="block hover:bg-greenCustomColor2  hover:font-bold hover:text-white p-2 rounded whitespace-nowrap"
+                      className="block hover:bg-[#008567]   hover:text-white p-2 rounded whitespace-nowrap"
                     >
                       Energy
                     </Link>
@@ -514,7 +514,7 @@ const Navbar = () => {
                   <li>
                     <Link
                       to="/industries/healthcare"
-                      className="block hover:bg-greenCustomColor2  hover:font-bold hover:text-white p-2 rounded whitespace-nowrap"
+                      className="block hover:bg-[#008567]   hover:text-white p-2 rounded whitespace-nowrap"
                     >
                       Healthcare
                     </Link>
@@ -522,7 +522,7 @@ const Navbar = () => {
                   <li>
                     <Link
                       to="/industries/financial"
-                      className="block hover:bg-greenCustomColor2  hover:font-bold hover:text-white p-2 rounded whitespace-nowrap"
+                      className="block hover:bg-[#008567]   hover:text-white p-2 rounded whitespace-nowrap"
                     >
                       Financial
                     </Link>
@@ -531,7 +531,7 @@ const Navbar = () => {
                   <li>
                     <Link
                       to="/industries/retail"
-                      className="block hover:bg-greenCustomColor2  hover:font-bold hover:text-white p-2 rounded whitespace-nowrap"
+                      className="block hover:bg-[#008567]   hover:text-white p-2 rounded whitespace-nowrap"
                     >
                       Retail
                     </Link>
@@ -540,7 +540,7 @@ const Navbar = () => {
                   <li>
                     <Link
                       to="/industries/media-entertainment"
-                      className="block hover:bg-greenCustomColor2  hover:font-bold hover:text-white p-2 rounded whitespace-nowrap"
+                      className="block hover:bg-[#008567]   hover:text-white p-2 rounded whitespace-nowrap"
                     >
                       Media & Entertainment
                     </Link>
@@ -549,7 +549,7 @@ const Navbar = () => {
                   <li>
                     <Link
                       to="/industries/service-provider"
-                      className="block hover:bg-greenCustomColor2  hover:font-bold hover:text-white p-2 rounded whitespace-nowrap"
+                      className="block hover:bg-[#008567]   hover:text-white p-2 rounded whitespace-nowrap"
                     >
                       Service Provider
                     </Link>
@@ -557,7 +557,7 @@ const Navbar = () => {
                   <li>
                     <Link
                       to="/industries/government"
-                      className="block hover:bg-greenCustomColor2  hover:font-bold hover:text-white p-2 rounded whitespace-nowrap"
+                      className="block hover:bg-[#008567]   hover:text-white p-2 rounded whitespace-nowrap"
                     >
                       Government
                     </Link>
@@ -570,7 +570,7 @@ const Navbar = () => {
           {/* Insights link */}
           <li className="relative" onMouseEnter={() => handleMouseEnter(4)}>
             <Link
-              className="flex items-center px-4 py-1 hover:text-green-400 hover:font-bold"
+              className="flex items-center px-4 py-1 hover:text-green-400 "
               onClick={() => handleToggle(4)}
             >
               Insights
@@ -593,7 +593,7 @@ const Navbar = () => {
                   <li>
                     <Link
                       to="/insights/blog"
-                      className="block hover:bg-greenCustomColor2  hover:font-bold hover:text-white p-2 rounded whitespace-nowrap"
+                      className="block hover:bg-[#008567]   hover:text-white p-2 rounded whitespace-nowrap"
                     >
                       Blog
                     </Link>
@@ -602,7 +602,7 @@ const Navbar = () => {
                   <li>
                     <Link
                       to="/insights/caseStudies"
-                      className="block hover:bg-greenCustomColor2  hover:font-bold hover:text-white p-2 rounded whitespace-nowrap"
+                      className="block hover:bg-[#008567]   hover:text-white p-2 rounded whitespace-nowrap"
                     >
                       Case Studies
                     </Link>
@@ -611,7 +611,7 @@ const Navbar = () => {
                   <li>
                     <Link
                       to="/insights/media-library"
-                      className="block hover:bg-greenCustomColor2  hover:font-bold hover:text-white p-2 rounded whitespace-nowrap"
+                      className="block hover:bg-[#008567]   hover:text-white p-2 rounded whitespace-nowrap"
                     >
                       Media Library
                     </Link>
@@ -619,7 +619,7 @@ const Navbar = () => {
                   <li>
                     <Link
                       to="/insights/partners"
-                      className="block hover:bg-greenCustomColor2  hover:font-bold hover:text-white p-2 rounded whitespace-nowrap"
+                      className="block hover:bg-[#008567]   hover:text-white p-2 rounded whitespace-nowrap"
                     >
                       Partners
                     </Link>
@@ -633,7 +633,7 @@ const Navbar = () => {
           <li className="relative" onMouseEnter={() => handleMouseEnter(6)}>
             <Link
               to="#"
-              className="flex items-center px-4 py-1 hover:text-green-400 hover:font-bold whitespace-nowrap"
+              className="flex items-center px-4 py-1 hover:text-green-400  whitespace-nowrap"
               onClick={() => handleToggle(6)}
             >
               Company
@@ -656,7 +656,7 @@ const Navbar = () => {
                   <li>
                     <Link
                       to="/company/about-us"
-                      className="block hover:bg-greenCustomColor2  hover:font-bold hover:text-white p-2 rounded whitespace-nowrap"
+                      className="block hover:bg-[#008567]   hover:text-white p-2 rounded whitespace-nowrap"
                     >
                       About
                     </Link>
@@ -665,7 +665,7 @@ const Navbar = () => {
                   <li>
                     <Link
                       to="/careers"
-                      className="block hover:bg-greenCustomColor2  hover:font-bold hover:text-white p-2 rounded whitespace-nowrap"
+                      className="block hover:bg-[#008567]   hover:text-white p-2 rounded whitespace-nowrap"
                     >
                       Careers
                     </Link>
@@ -674,7 +674,7 @@ const Navbar = () => {
                   <li>
                     <Link
                       to="/contact-us"
-                      className="block hover:bg-greenCustomColor2 bg-[#068f36]  hover:font-bold  hover:text-white p-2 rounded whitespace-nowrap"
+                      className="block hover:bg-[#008567] bg-[#068f36]    hover:text-white p-2 rounded whitespace-nowrap"
                     >
                       Contact Us
                     </Link>
@@ -686,7 +686,7 @@ const Navbar = () => {
         </ul>
 
         {/* Get Started Link  lg: py-4*/}
-        <div className="flex items-center md:hidden lg:flex lg:w-28 2xl:mr-14 bg-[#068f36]  lg:py-[13px] 2xl:py-[14px] lg:px-4 hover:bg-green-800 bg-greenCustomColor2 rounded-3xl border-gray-600 border-[1px]">
+        <div className="flex items-center md:hidden lg:flex lg:w-28 2xl:mr-14 bg-[#068f36]  lg:py-[13px] 2xl:py-[14px] lg:px-4 hover:bg-green-800 bg-[#008567] rounded-3xl border-gray-600 border-[1px]">
           <div className="2xl:ml-0 scroll-px-3 rounded-r-none 2xl:rounded-none transition-all duration-500 sm:rounded-md whitespace-nowrap">
             {/* hidden for mobile, visible on sm and larger */}
             <Link
@@ -1038,7 +1038,7 @@ const Navbar = () => {
               </li>
 
               {/* Get Started for Mobile */}
-              <div className="bg-greenCustomColor2 text-white px-6 py-3 text-center rounded">
+              <div className="bg-[#008567] text-white px-6 py-3 text-center rounded">
                 <Link to="/contact-us">Contact Us</Link>
               </div>
             </ul>
