@@ -2,7 +2,7 @@ import React from "react";
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 import ContactForm from "./ContactFrom";
 import { Link } from "react-router-dom";
-import Footer from "../components/footer";
+// import Footer from "../components/footer";
 import Navbar from "../components/navbar";
 
 const Template = () => {
@@ -124,7 +124,7 @@ const Template = () => {
         </div>
       </div>
 
-      <Footer/>
+      {/* <Footer/> */}
     </>
   );
 };

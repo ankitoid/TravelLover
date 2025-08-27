@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import heroBg from "../assets/gx-aviation.png";
 import Navbar from "./navbar";
 import Slider from "./Slider";
-import Footer from "./footer";
+// import Footer from "./footer";
 const Homepage = () => {
   return (
     <div>
@@ -78,7 +78,7 @@ const Homepage = () => {
           </p>
         </div>
       </section>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };

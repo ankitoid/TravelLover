@@ -8,22 +8,12 @@ const Footer = () => {
         <div className="container mx-auto px-6 relative z-10">
           {/* Top Section with Logo */}
           <div className="flex flex-col md:flex-row justify-start items-start md:items-center space-y-6 md:space-y-0 md:space-x-6 mb-10">
-            {/* <Link to="/" className="flex items-center">
-              <img
-                // src="https://main-website-images1.s3.ap-south-1.amazonaws.com/Lending-Page-Image/gxilogo2.png"
-                src={GX1}
-                alt="Logo"
-                className="h-14 md:h-14"
-              />
-            </Link> */}
-            {/* <LogoSwitcher1/> */}
+            
             <Link
               to="/"
               className="flex items-center justify-center relative group  w-40  "
             >
               <img
-              // src="https://main-website-images1.s3.ap-south-1.amazonaws.com/Lending-Page-Image/logo/full_logo.png"
-              // className="w-96 h-auto"
                 src={First}
                 alt="Logo"
                 className="h-8 2xl:h-10 md:h-10 transition-all duration-300 transform group-hover:-translate-x-8 "
@@ -33,12 +23,6 @@ const Footer = () => {
                 alt="Logo"
                 className="absolute opacity-0 group-hover:opacity-100 transform translate-x-10 group-hover:translate-x-20 transition-all duration-700 text-gray-700 font-semibold"
               />
-              {/* <img
-                        // src="https://main-website-images1.s3.ap-south-1.amazonaws.com/Lending-Page-Image/gxilogo2.png"
-                         src={b} // group-hover:-translate-x-10 css below
-                        alt="Logo"
-                        className="h-10 2xl:h-12 md:h-12 transition-all duration-300 transform  "
-                      /> */}
             </Link>
           </div>
 
